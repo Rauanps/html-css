@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.animation {
+    border-radius: 100%;
+    background-color: rgba(137, 43, 226, 0.234);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    animation-name: moverParaDireita;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes moverParaDireita{
+    to {transform: translateX(700%) rotate(360deg);}
+}
+h1 {
+    font-size: large;
+}
